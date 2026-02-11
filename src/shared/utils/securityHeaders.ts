@@ -12,12 +12,12 @@ export interface SecurityHeaders {
 export class SecurityHeadersManager {
   private static readonly DEFAULT_CSP = [
     "default-src 'self'",
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ylynmzpikmkwwvmytfsg.supabase.co",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://kzutwcexyafwggfkwquq.supabase.co",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
     "img-src 'self' data: https: blob:",
     "media-src 'self' https:",
-    "connect-src 'self' https://ylynmzpikmkwwvmytfsg.supabase.co wss://ylynmzpikmkwwvmytfsg.supabase.co",
+    "connect-src 'self' https://kzutwcexyafwggfkwquq.supabase.co wss://kzutwcexyafwggfkwquq.supabase.co",
     "frame-src 'self'",
     "object-src 'none'",
     "base-uri 'self'",
